@@ -1,16 +1,16 @@
 /* Reset Style */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .subtitle {
-  list-style:none;
+  list-style: none;
 }
 
 /* Basic Style */
 
 /* input,button{
-  outline:none;
+  outline: none;
 } */
 
 .page {
@@ -24,14 +24,14 @@ ul {
   display: block;
   text-align: right;
 }
-.page-header :first-child {
+.page-header: first-child {
   width: 100%;
 }
 .page-header .more-inf {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .page-header { 
     text-align: center;    
@@ -87,7 +87,7 @@ ul {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.input-text:focus {
+.input-text :focus {
   color: #333;
 }
 
@@ -129,7 +129,7 @@ ul {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.del :first-child:hover {
+.del :first-child :hover {
   transform: rotateZ(0);
 }
 
@@ -141,14 +141,14 @@ ul {
 
 /* Edit Task */
 .list-item .input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-label {
-  display:none;
+  display: none;
 }
