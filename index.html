@@ -6,17 +6,23 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="page-header"><img src="./eisenhower-matrix.jpg"><a class="more_inf" 
-       href="https://al-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main-page">
-    <p id="add-task">
-      <label for="new-task" class="subtitle">Add Item</label>
+  <header class="page-header">
+    <img src="./eisenhower-matrix.jpg">
+    <a class="more_inf" href="https://al-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </header>
+  <main class="main-page">
+
+    <section id="add-task">
+      <label for="new-task">
+        <h3 class="subtitle">Add Item</h3>
+      </label>
       <div class="task-wrapper">
         <input id="new-task"class="task input-text" type="text">
         <button class="button">Add</button>
       </div>
-    </p>
+    </section>
+
+    <section>
     <h3 class="subtitle">Todo</h3>
     <ul id="incomplete-tasks">
       <li class="list-item">
@@ -26,7 +32,7 @@
         <button class="button edit">Edit</button>
         <button class="button del"><img src="./remove.svg"></button>
       </li>
-      <li class=" list-item edit-mode">
+      <li class="list-item edit-mode">
         <input type="checkbox">
         <label class="task task-label">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task input-text">
@@ -34,7 +40,10 @@
         <button class="button del"><img src="./remove.svg"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+  </section>
+
+  <section>
+    <h3 class="subtitle">Completed</h3>
     <ul id="completed-tasks">
       <li class="list-item">
         <input type="checkbox" checked>
@@ -44,7 +53,9 @@
         <button class="button del"><img src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </section>
+
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
