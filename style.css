@@ -3,13 +3,15 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.list-item, .subtitle {
+.list-item,
+.subtitle {
   list-style: none;
 }
 
 /* Basic Style */
 
-/* input,button{
+/* input,
+button{
   outline: none;
 } */
 
@@ -24,7 +26,7 @@ ul {
   display: block;
   text-align: right;
 }
-.page-header: first-child {
+.page-header :first-child {
   width: 100%;
 }
 .page-header .more-inf {
@@ -105,7 +107,6 @@ ul {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
