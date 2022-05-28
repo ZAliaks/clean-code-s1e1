@@ -29,7 +29,7 @@ button{
 .page-header :first-child {
   width: 100%;
 }
-.page-header .more-inf {
+.page-header .page-header__link {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@ button{
 }
 
 }
-.main-page {
+.page-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -76,7 +76,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.input-text {
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -89,7 +89,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.input-text :focus {
+.task__input :focus {
   color: #333;
 }
 
@@ -118,19 +118,19 @@ button{
 .list-item :first-child {
   margin: 0 10px;
 }
-.task-label {
+.list-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.del :first-child {
+.button_del :first-child {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.del :first-child :hover {
+.button_del :first-child :hover {
   transform: rotateZ(0);
 }
 
@@ -141,15 +141,15 @@ button{
 }
 
 /* Edit Task */
-.list-item .input-text {
+.list-item .task__input {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.edit-mode .list-item__label {
   display: none;
 }
