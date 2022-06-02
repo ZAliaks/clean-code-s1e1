@@ -99,7 +99,7 @@ input,
   color: #888;
 }
 
-.task__input :focus {
+.task__input:focus {
   color: #333;
 }
 
